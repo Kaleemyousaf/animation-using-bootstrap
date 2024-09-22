@@ -1,0 +1,46 @@
+/* Custom styles for the site */
+.hero-section {
+    background-image: url(../img/back.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+h2 {
+    padding-bottom: 30px;
+}
+
+.icon-box i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #28a745;
+}
+
+.btn-slide {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Carousel controls styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #28a745;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
